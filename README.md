@@ -43,19 +43,3 @@ Dado un dataset de tuplas `(categoría, precio)`, usar `reduce` para agrupar por
 ### 10. Reduce — Accesos por IP
 
 Dado un dataset de tuplas `(IP, recurso, tiempo)`, usar `reduce` para contar la cantidad de accesos por IP y detectar cuál es la IP más activa.
-
-## Cómo ejecutar
-
-```bash
-python practico_mapreduce.py
-```
-
-Requiere Python 3. Sin dependencias externas.
-
-## Nota técnica
-
-En Python 3, `reduce` **no es un built-in** — a diferencia de `map` y `filter`. Debe importarse explícitamente:
-
-```python
-from functools import reduce
-```
